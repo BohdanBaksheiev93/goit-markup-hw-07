@@ -123,7 +123,7 @@
                     <button class="hero_btn" type="button" data-modal-open>Order Service</button>
                 </div>
             </section>
-        <!--    <section class="feature">
+            <section class="feature">
                 <div class="container">
                     <h2 class="visually-hidden">features</h2>
                     <ul class="feature_menu list">
@@ -165,19 +165,36 @@
                         </li>
                     </ul>
                 </div>
-            </section>-->
- <!--           <section class="products">
+            </section>
+            <section class="products">
                 <div class="container">
                     <h2 class="product_title">What are we doing</h2>
                     <ul class="products_item list">
                         <li class="products_item_list">
-                            <img src="./images/img_1.jpg" width="360" alt="pc">
+                    <!--        <img src="./images/desktop_pc.png" width="360" alt="pc">
+                    <picture>
+                        <source srcset="./images/desktop_pc.png 1x, ./images/desktop_pc@2x.png 2x" media="(min-width: 1158px)">
+                        <img src="./images/desktop_pc.jpg" alt="retina picture" class="products_img"/>
+                    </picture>-->
+                            <img class="products_img"
+                                srcset="./images/desktop_pc@2x.png 2x" 
+                                src="./images/desktop_pc.png" 
+                                alt="pc image" 
+                            />
                         </li>
                         <li class="products_item_list">
-                            <img src="./images/img_2.jpg" width="360" alt="glass">
+                            <img class="products_img"
+                                srcset="./images/desktop_app@2x.png 2x" 
+                                src="./images/desktop_app.png" 
+                                alt="app image" 
+                            />
                         </li>
                         <li class="products_item_list">
-                            <img src="./images/img_3.jpg" width="360" alt="telephone">
+                            <img class="products_img"
+                                srcset="./images/desktop_phone@2x.png 2x" 
+                                src="./images/desktop_phone.png" 
+                                alt="phone image" 
+                            />
                         </li>
                     </ul>
                 </div>
@@ -187,7 +204,11 @@
                     <h2 class="team_title">Our Team</h2>
                     <ul class="team_card list">
                         <li class="team_item">
-                            <img src="./images/img_team_1.jpg" width="264" alt="Mark Guerrero">
+                            <img
+                                srcset="./images/team_1@2x.png 2x" 
+                                src="./images/team_1.png" 
+                                alt="Mark Guerrero" 
+                            />
                             <div class="team_info">
                                 <h3 class="team_name">Mark Guerrero</h3>
                                 <p class="team_par">Product Designer</p>
@@ -224,7 +245,11 @@
                             </div> 
                         </li>
                         <li class="team_item">
-                            <img src="./images/img_team_2.jpg" width="264" alt="Tom Ford">
+                            <img
+                                srcset="./images/team_2@2x.png 2x" 
+                                src="./images/team_2.png" 
+                                alt="Tom Ford" 
+                            />
                             <div class="team_info">
                                 <h3 class="team_name">Tom Ford</h3>
                                 <p class="team_par">Frontend Developer</p>
@@ -261,7 +286,11 @@
                             </div>
                         </li>
                         <li class="team_item">
-                            <img src="./images/img_team_3.jpg" width="264" alt="Camila Garcia">
+                            <img
+                                srcset="./images/team_3@2x.png 2x" 
+                                src="./images/team_3.png" 
+                                alt="Camila Garcia" 
+                            />
                             <div class="team_info">
                                 <h3 class="team_name">Camila Garcia</h3>
                                 <p class="team_par">Marketing</p>
@@ -298,7 +327,11 @@
                             </div>
                         </li>
                         <li class="team_item">
-                            <img src="./images/img_team_4.jpg" width="264" alt="Daniel Wilson">
+                            <img
+                                srcset="./images/team_4@2x.png 2x" 
+                                src="./images/team_4.png" 
+                                alt="Daniel Wilson" 
+                            />
                             <div class="team_info">
                                 <h3 class="team_name">Daniel Wilson</h3>
                                 <p class="team_par">UI Designer</p>
@@ -441,7 +474,7 @@
                 </form>
             </div>
         </div>
-    </footer>           -->
+    </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal_close_btn" data-modal-close>
