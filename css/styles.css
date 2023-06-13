@@ -171,14 +171,13 @@ button {
   fill: var(--brand-color);
 }
 
-.nav_menu {
-
+.nav_menu > .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -187,6 +186,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--primary-brand);
 }
+
 
 .logo_item {
   color: var(--brand-color);
@@ -231,7 +231,7 @@ button {
   display: flex;
   margin-top: 48px;
   flex-wrap: wrap;
-  gap: 56px;
+  gap: 16px 56px;
 }
 
 .mobile_social_list_link {
@@ -1178,7 +1178,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
+  max-width: 408px;
+  width: 100%;
   min-height: 584px;
   padding-top: 72px;
   padding-right: 24px;
